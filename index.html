@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=640">
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="index.js" defer></script>
+    <title>Etch a Sketch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Etch a Sketch</div>
+        <div class="container-settings">
+        <div class="settings">
+            <div class="div-color">
+                <p>Color</p>
+                <input type="color" class="input-color" id="input-color" value="#FFFFFF">
+            </div>
+            <div class="div-size">
+                <p>Size</p>
+                <input type="range" class="input-size" id="input-size" min="16" max="64" value="16">
+            </div>
+            <button class="btn-clear" id="btn-clear" >Clear</button>
+        </div>
+        <div class="grid" id="grid"></div>
+    </div>
+    </div>
+</body>
+</html>
