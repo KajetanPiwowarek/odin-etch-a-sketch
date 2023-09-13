@@ -12,7 +12,7 @@ body {
     min-height: 500px;
     background-color: #8ECDDD;
     border-radius: 5%;
-    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .header {
@@ -22,7 +22,7 @@ body {
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: 600;
-    color: #FFFADD;
+    color: #22668D;
 }
 
 .container-settings {
@@ -100,14 +100,13 @@ p {
     align-self: center;
     margin-top: 20px;
     padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 10px;
-    border: 1px solid white;
-    background-color: #22668D;
-    color: #FFFADD;
+    border: 2px solid #22668D;
+    background-color: #8ECDDD;
+    color: #22668D;
     font-size: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .grid {
